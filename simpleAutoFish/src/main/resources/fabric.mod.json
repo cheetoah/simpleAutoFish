@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "autofish",
+	"version": "${version}",
+	"name": "AutoFish",
+	"description": "Automatically reels in and recasts your fishing rod. Toggle with a keybind (default: V).",
+	"authors": [],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.autofish.AutoFishClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
